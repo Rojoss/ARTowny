@@ -1,0 +1,15 @@
+main : com.josroossien.artowny.ARTowny
+name: ARTowny
+version: 0.1
+description: Towny pvp plugin.
+depend: [CWCore, Towny, WorldGuard]
+commands:
+  artowny:
+    description: Main ARTowny command.
+    usage: /<command>
+  duel:
+    description: Duel a player to pvp in non pvp areas.
+    usage: /<command> [player]
+  surrender:
+    description: Surrender in a duel.
+    usage: /<command>
